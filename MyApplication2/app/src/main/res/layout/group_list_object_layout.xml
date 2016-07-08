@@ -60,7 +60,7 @@
         android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:background="@color/light_green_800"
-        android:src="@android:drawable/ic_media_play"/>
+        android:background="@color/light_green_200"
+        android:src="@drawable/button_icon"/>
 
 </RelativeLayout>
