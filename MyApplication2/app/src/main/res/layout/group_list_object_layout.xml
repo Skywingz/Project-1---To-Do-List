@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/groupListObjectRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_margin="6dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/groupListObjectTitle"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/groupListObjectPlayButton"
+        android:background="@color/brown_200"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" />
+
+    <TextView
+        android:id="@+id/groupListObjectCompletionTitle"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/groupListObjectTitle"
+        android:layout_alignParentLeft="true"
+        android:background="@color/black"
+        android:text="Completed Tasks:"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/orange_500"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" />
+
+    <TextView
+        android:id="@+id/groupListObjectCompletionNum"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/groupListObjectTitle"
+        android:layout_toLeftOf="@+id/groupListObjectPlayButton"
+        android:layout_toRightOf="@+id/groupListObjectCompletionTitle"
+        android:background="@color/black"
+        android:text="0 / 10"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingRight="12dp" />
+
+
+    <ImageView
+        android:id="@+id/groupListObjectPlayButton"
+        android:layout_width="48dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/light_green_800"
+        android:src="@android:drawable/ic_media_play"/>
+
+</RelativeLayout>

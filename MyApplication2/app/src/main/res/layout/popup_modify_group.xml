@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupModifyGroupRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_green_with_corners">
+
+    <TextView
+        android:id="@+id/popupModifyGroupTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Modify Group Name"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/popupModifyGroupEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupModifyGroupTitle"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:background="@drawable/white_with_corners"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:maxLength="20"
+        android:hint="Enter Name\n(max 20 characters)"/>
+
+    <Button
+        android:id="@+id/popupModifyGroupDeleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupModifyGroupEditText"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="DELETE GROUP"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/amber_A700"
+        android:background="@drawable/red_with_corners"/>
+
+    <LinearLayout
+        android:id="@+id/popupModifyGroupLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupModifyGroupDeleteButton"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/popupModifyGroupCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/red_A200"
+            android:gravity="center"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/popupModifyGroupModifyButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="UPDATE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/green_A700"
+            android:gravity="center"
+            android:background="@color/transparent"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

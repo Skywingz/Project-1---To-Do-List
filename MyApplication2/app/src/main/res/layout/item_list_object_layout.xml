@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemListObjectRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_margin="6dp">
+
+
+    <ImageView
+        android:id="@+id/itemListObjectDeleteButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@android:drawable/ic_delete"/>
+
+    <TextView
+        android:id="@+id/itemListObjectTitle"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/itemListObjectDeleteButton"
+        android:layout_toLeftOf="@+id/itemListObjectCheckBox"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+
+    <TextView
+        android:id="@+id/itemListObjectDescription"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/itemListObjectTitle"
+        android:layout_toRightOf="@+id/itemListObjectDeleteButton"
+        android:layout_toLeftOf="@+id/itemListObjectCheckBox"
+        android:text="Description"
+        android:textSize="12sp"
+        android:textColor="@color/grey_500"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+
+    <CheckBox
+        android:id="@+id/itemListObjectCheckBox"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:onClick="onCheckboxClicked"/>
+
+</RelativeLayout>
