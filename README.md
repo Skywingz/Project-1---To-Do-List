@@ -15,6 +15,7 @@
 
 - You may find a few extra lines of code here and there and extra variables in classes. This is because I was setting the app ready to add a SQLite database which will utilize that data but did not have time to implement. I did not want to delete any of the code in case it might break existing code and also because I might add the database in the future.
 
+## Screenshots
 
 <img src="screenshots/ToDo-List-Screenshot-01.png" width="300"/>
 
