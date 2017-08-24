@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public class GroupAdapter extends RecyclerView.Adapter<GroupViewHolder> {
 
     private ArrayList<GroupObject> groups;
