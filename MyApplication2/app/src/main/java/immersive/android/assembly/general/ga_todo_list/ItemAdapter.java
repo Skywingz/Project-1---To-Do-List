@@ -11,9 +11,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder> {
 
     private ArrayList<ItemObject> items;

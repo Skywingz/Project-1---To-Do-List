@@ -7,9 +7,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public RelativeLayout layout;

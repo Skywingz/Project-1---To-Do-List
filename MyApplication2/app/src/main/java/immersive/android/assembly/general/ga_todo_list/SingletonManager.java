@@ -3,9 +3,7 @@ package immersive.android.assembly.general.ga_todo_list;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public final class SingletonManager {
 
     private static SingletonManager manager = null;

@@ -5,9 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public class GroupViewHolder extends RecyclerView.ViewHolder {
 
     public TextView title, completion;

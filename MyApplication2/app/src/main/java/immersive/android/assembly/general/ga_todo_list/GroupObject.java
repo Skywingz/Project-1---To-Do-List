@@ -1,8 +1,6 @@
 package immersive.android.assembly.general.ga_todo_list;
 
-/**
- * Created by Skywingz on 7/7/16.
- */
+
 public class GroupObject {
 
     private int position;
