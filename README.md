@@ -1,4 +1,4 @@
-Instructions for Use:
+## Instructions for Use:
 
 - On the home screen, tap the "Plus" floating action button to bring up a popup to create a new ToDo list. Enter a List name and tap "ADD" to add to screen.
 - Once a list has been added you can tap the name to bring up a popup to modify the name and/or delete the entire list.
@@ -11,7 +11,7 @@ Instructions for Use:
 
 
 
-Known Issues
+**Known Issues**
 
 - You may find a few extra lines of code here and there and extra variables in classes. This is because I was setting the app ready to add a SQLite database which will utilize that data but did not have time to implement. I did not want to delete any of the code in case it might break existing code and also because I might add the database in the future.
 
