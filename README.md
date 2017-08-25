@@ -1,3 +1,7 @@
+## Intro
+
+Playing around with the ever popular To-Do list app. Still a work in progress.
+
 ## Instructions for Use:
 
 - On the home screen, tap the "Plus" floating action button to bring up a popup to create a new ToDo list. Enter a List name and tap "ADD" to add to screen.
